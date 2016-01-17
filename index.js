@@ -1,6 +1,7 @@
 module.exports = simpleJSONService
 
 var concat = require('concat-stream')
+var parseJSON = require('json-parse-errback')
 var uuid = require('uuid')
 
 function simpleJSONService(log, level, implementation) {
@@ -20,10 +21,3 @@ function simpleJSONService(log, level, implementation) {
         else {
           request.log.info({ input: input })
           implementation(log, level, input, callback) } }) })) } }
-
-function parseJSON(input, callback) {
-  try {
-    var result = JSON.parse(input)
-    callback(null, result) }
-  catch (error) {
-    callback(error) } }

@@ -5,6 +5,7 @@
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "concat-stream": "^1.5.1",
+    "json-parse-errback": "^1.0.0",
     "uuid": "^2.0.1"
   },
   "files": [
