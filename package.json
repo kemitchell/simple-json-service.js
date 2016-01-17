@@ -1,0 +1,17 @@
+{
+  "name": "simple-json-service",
+  "description": "higher-order function for HTTP request handlers",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "uuid": "^2.0.1"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/simple-json-service.js"
+}
