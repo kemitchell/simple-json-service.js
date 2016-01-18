@@ -1,7 +1,7 @@
 {
   "name": "simple-json-service",
   "description": "higher-order function for HTTP request handlers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "concat-stream": "^1.5.1",
